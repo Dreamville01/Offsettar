@@ -1,4 +1,3 @@
-# Offsetta
 
 **Programmable mobile money ↔ blockchain financial rails, built on Stellar.**
 
@@ -157,7 +156,7 @@ Whether you write Rust, TypeScript, or just have strong opinions about payment U
 2. **Fork and branch** — `git checkout -b feat/your-feature`
 3. **Build and test** — make your changes and add tests where relevant
 4. **Open a PR** — include a clear description of what changed and why
-5. **Review** — a maintainer will review within 3–5 business days
+5. **Review** — a maintainer will review within 2–4 business days
 
 ### Open contribution areas
 
