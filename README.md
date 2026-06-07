@@ -1,17 +1,17 @@
 
 **Programmable mobile money ↔ blockchain financial rails, built on Stellar.**
 
-Africa moves money on mobile and the new world settles transactions on-chain. Offsetta is the infrastructure layer that connects both by giving developers a single API to build products that span mobile money networks, stablecoins, and cross-border payments, without rebuilding the plumbing every time.
+Africa moves money on mobile and the new world settles transactions on-chain. Offsettar is the infrastructure layer that connects both by giving developers a single API to build products that span mobile money networks, stablecoins, and cross-border payments, without rebuilding the plumbing every time.
 
 > Built for Africa. Open to the world.
 
 ---
 
-## You might be asking "Why Offsetta?"
+## You might be asking "Why Offsettar?"
 
 Mobile money has transformed financial access across Africa — but it remains largely isolated from the broader global financial system. Moving value between M-Pesa, a USDC wallet, a Nigerian bank account, or a Kenyan fintech still requires bespoke integrations, fragmented liquidity, and slow settlement.
 
-Offsetta solves this by providing a unified, programmable settlement layer:
+Offsettar rsolves this by providing a unified, programmable settlement layer:
 
 - **For developers** — one REST API to onramp, offramp, and route value across networks
 - **For fintechs** — plug into existing corridors without negotiating liquidity independently
@@ -23,7 +23,7 @@ Offsetta solves this by providing a unified, programmable settlement layer:
 
 | Layer | What it handles |
 |---|---|
-| **Fiat Onramp** | Accept mobile money (such as M-Pesa, MTN MoMo, Airtel) and mint on-chain stablecoins |
+| **Fiat Onramp** | Accept mobile money and mint on-chain stablecoins |
 | **Offramp** | Redeem stablecoins back to mobile money or bank accounts |
 | **Routing Engine** | Intelligent path-finding across corridors and liquidity sources |
 | **Liquidity Layer** | Pooled on-chain liquidity for instant, deterministic settlement |
@@ -33,7 +33,7 @@ Offsetta solves this by providing a unified, programmable settlement layer:
 
 ## Architecture
 
-Offsetta is structured as a three-layer stack:
+Offsettar is structured as a three-layer stack:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -60,7 +60,7 @@ The API layer handles business logic, provider integrations, and webhook deliver
 ## Proposed Monorepo Structure
 
 ```
-offsetta/
+Offsettar /
 ├── apps/
 │   ├── web/          # Next.js dashboard & developer portal
 │   └── api/          # Node.js REST API & webhook engine
@@ -105,8 +105,8 @@ offsetta/
 ### Install
 
 ```bash
-git clone https://github.com/your-org/offsetta.git
-cd offsetta
+git clone https://github.com/your-org/Offsettar.git
+cd Offsettar 
 npm install
 ```
 
@@ -146,7 +146,7 @@ The current focus is a lean, working core:
 
 ## Contributing
 
-Offsetta is fully open source and community-driven. **This is a good time to get involved** — the core architecture is defined, the contracts are scoped, and there is meaningful, concrete work across every part of the stack.
+Offsettar is fully open source and community-driven. **This is a good time to get involved** — the core architecture is defined, the contracts are scoped, and there is meaningful, concrete work across every part of the stack.
 
 Whether you write Rust, TypeScript, or just have strong opinions about payment UX, there is a place for you here.
 
@@ -181,9 +181,6 @@ Whether you write Rust, TypeScript, or just have strong opinions about payment U
 
 Open an issue with the `bug` label. Include steps to reproduce, expected vs. actual behaviour, and your environment details.
 
-### Security vulnerabilities
-
-Do **not** open a public issue. Email **security@offsetta.xyz** directly.
 
 ---
 
