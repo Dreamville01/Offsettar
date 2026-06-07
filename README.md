@@ -9,7 +9,7 @@ Africa moves money on mobile and the new world settles transactions on-chain. Of
 
 ## You might be asking "Why Offsettar?"
 
-Mobile money has transformed financial access across Africa — but it remains largely isolated from the broader global financial system. Moving value between M-Pesa, a USDC wallet, a Nigerian bank account, or a Kenyan fintech still requires bespoke integrations, fragmented liquidity, and slow settlement.
+Mobile money has transformed financial access across Africa — but it remains largely isolated from the broader global financial system. Moving value between M-Pesa, a USDC wallet, or a Kenyan fintech still requires bespoke integrations, fragmented liquidity, and slow settlement.
 
 Offsettar rsolves this by providing a unified, programmable settlement layer:
 
